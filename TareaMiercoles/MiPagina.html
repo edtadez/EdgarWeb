@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		header{
+		  background-image: url("ram.jpg");
+		  background-size: 100% 100%;
+		  background-repeat: no-repeat;
+		  width: 100%;
+		  height: 100vh;
+		}
+
+		#texth {
+			color:red;
+			margin: auto;
+		}
+		.nav1{
+		  list-style:none;
+		  display: inline;
+		  margin: 0px;
+		  padding-right: 20px;
+		  color: yellow;
+		  font-size: 50px;
+
+		}
+		p[name="uno"]{
+			color: blue;
+			font-size: 70px;
+		}
+		p[name*="o"]{
+			color: orange;
+			font-size: 70px;
+		}
+		p:nth-child(odd){
+			color: cyan;
+		}
+	</style>
+
+</head>
+<body style="background-color:#28251E">
+<header>
+	<p id="texth"> Bienvenido perro!!!</p>
+	<nav>
+		<ul>
+			<li class="nav1"><a href="enlace.html">articulos</a></li>
+			<li class="nav1">cajas</li>
+			<li class="nav1">peliculas</li>
+		</ul>
+	</nav>
+	<p name="uno">hola 1</p>
+	<p name="dos">hola 2</p>
+	<p name="utres"> hola 3</p>
+	<p>hola</p>
+	<p>adios</p>
+</header>
+	
+</body>
+</html>
