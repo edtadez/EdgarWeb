@@ -4,53 +4,55 @@
 	<meta charset="UTF-8">
 	<title>The Music World</title>
 	<style>
+
 		header{
-		  background-color: #FCC347
+		  background-image: url("imagenes/back.jpeg");
+		  background-size: 100% 20%;
+		  background-repeat: no-repeat;
+		  width: 100%;
+		  height: 100vh;
 		}
+			
 
-		#texth {
-			color:red;
+		#textnav {
+			color:#F2D60B;
 			margin: auto;
+			text-align: left;
+			font-size: 45px;
 		}
-		.nav1{
-		  list-style:none;
-		  display: inline;
-		  margin: 0px;
-		  padding-right: 20px;
-		  color: yellow;
-		  font-size: 50px;
-
-		}
-		p[name="uno"]{
-			color: blue;
+		
+		p[name="presentacion"]{
+			color: #A4E501;
 			font-size: 70px;
+			text-align: center;
 		}
-		p[name*="o"]{
-			color: orange;
-			font-size: 70px;
+		p[name="titulo"]{
+			color: #E4D916;
+			text-align: center;
+			font-size: 80px;
 		}
-		p:nth-child(odd){
-			color: cyan;
+		ul>h2>li{
+			color: red;
 		}
 	</style>
 
 </head>
 <body style="background-color:#28251E">
-<header>
-	<p id="texth"> Bienvenido perro!!!</p>
-	<nav>
-		<ul>
-			<li class="nav1"><a href="enlace.html">articulos</a></li>
-			<li class="nav1">cajas</li>
-			<li class="nav1">peliculas</li>
-		</ul>
-	</nav>
-	<p name="uno">hola 1</p>
-	<p name="dos">hola 2</p>
-	<p name="utres"> hola 3</p>
-	<p>hola</p>
-	<p>adios</p>
-</header>
+	<header>
+		
+		<p name="titulo" align="center"> THE WORLD'S MUSIC</p>
+		<p name="presentacion">En esta página encontrarás lo mejor y lo más nuevo de la Música</p>
+		<p id="textnav">Talvez quieras echar un vistazo a...</p>
+		<nav>
+  			<ul><h2>
+    			<li>Rock Alternativo</li>
+    			<li>Metal</li>
+    			<li>Indie</li>
+    			<li>Electrónica</li>
+    			<li>Música Clásica</li>
+  			</ul></h2>
+		</nav>
+	</header>
 	
 </body>
 </html>
