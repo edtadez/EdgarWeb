@@ -1,4 +1,15 @@
-header{
+nav {
+	background: linear-gradient(yellow,#e0e0e0,#efefef,#000);
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+		
+
+		header{
 		  background-image: url("../imagenes/back.jpeg");
 		  background-size: 100% 20%;
 		  background-repeat: no-repeat;
