@@ -66,4 +66,6 @@ nav {
 		}
 	body{
 		margin: 100px 40px 10px 70px;
+		border-left : 5pt groove red;
+		border-right: 5px groove red;
 	}
