@@ -53,5 +53,14 @@ nav {
 		border:outset;
     	height: 5px;
         background-color: #D66311; /* Modern Browsers */
-}
-    	}
+		}
+    	footer{
+    	background: linear-gradient(yellow,#e0e0e0,#efefef,#000);
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+		border: 1px solid;
+		border-radius: 5px;
+		margin-bottom: 20px;
+		}
+		
