@@ -3,3 +3,12 @@ body {
    color: #262626;
    font-family: Arial, san-serif;
 }
+#registro {  
+   background-color: #EF8E34;
+   width: 465px;  
+   padding: 20px;  
+   margin: 50px auto;  
+   border-radius: 15px;    
+   -moz-border-radius: 15px;  
+   -webkit-border-radius: 15px;  
+}
