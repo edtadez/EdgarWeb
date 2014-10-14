@@ -32,3 +32,25 @@ body {
    border: none;  
    background-color: #6EA070;
 }  
+#registro#submit:hover {  
+   background-color: #BFD7C1;  
+   color: #6EA070;
+}
+#registro textarea {  
+   height: 150px;  
+}  
+
+input:required, textarea:required {  
+   box-shadow: none;
+   -moz-box-shadow: none;  
+   -webkit-box-shadow: none;  
+   -o-box-shadow: none;  
+}
+#registro.required {  
+   font-weight:bold;  
+   color: #E5E6E7;      
+}
+#fallo, #exito {
+   color: #E71818;
+   display:none;  
+}
