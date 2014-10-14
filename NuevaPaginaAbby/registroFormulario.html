@@ -9,13 +9,17 @@
 		<div id="registro">  
    			<h1>¡Unete al Club!</h1>
    			<h2>Usa el formulario para registrarte</h2>  
-  			 <p id="fallo">Oops... Algo anduvo mal.</p>  
+  			<p id="fallo">Oops... Algo anduvo mal.</p>  
    			<p id="exito">Gracias, tus datos han sido enviados de manera segura.</p>
    			<form method="post" action="emailForm.php">  
-      			<label for="name">Nombre: <span class="required">*</span></label>  
+      			<label for="name">Nombre: <span class="required">*</span></label> 
+      			<br>
       			<input type="text" id="nombre" name="nombre" value="" placeholder="Tu nombre" required="required" autofocus="autofocus" />  
-      			<label for="email">Correo Electrónico: <span class="required">*</span>		</label>  
+      			<br>
+      			<label for="email">Correo Electrónico: <span class="required">*</span></label>  
+      			<br>
       			<input type="email" id="email" name="email" value="" placeholder="ejemplo@email.com" required="required" />  
+      			<br>
       			<label for="preferencia">Música de tu preferencia: </label>  
       			<select id="preferencia" name="preferencia">  
          			<option value="metal">Metal</option>
@@ -25,7 +29,9 @@
          			<option value="electrónica">Electrónica</option>
          			<option value="default">Ni puta idea</option>
       			</select> 
+      			<br>
       		 	<label for="Acuerdo">Dando click en "Registrar", usted acepta los términos y condiciones.</label> 
+      		 	<br>
       			<input type="submit" value="Registrar" id="submit" />
    			</form> 
    		</div> 
