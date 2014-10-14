@@ -12,3 +12,11 @@ body {
    -moz-border-radius: 15px;  
    -webkit-border-radius: 15px;  
 }
+#registro input,  
+#registro select,  
+#registro textarea,  
+#registro label {  
+   font-size: 15px;  
+   margin-bottom: 2px;
+   font-family: Arial, san-serif;
+}  
