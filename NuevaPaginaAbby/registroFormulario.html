@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+</head>
+	<body>
+		<div id="registro">  
+   			<h1>¡Unete al Club!</h1>
+   			<h2>Usa el formulario para registrarte</h2>  
+  			 <p id="fallo">Oops... Algo anduvo mal.</p>  
+   			<p id="exito">Gracias, tus datos han sido enviados de manera segura.</p>
+   			<form method="post" action="emailForm.php">  
+      			<label for="name">Nombre: <span class="required">*</span></label>  
+      			<input type="text" id="nombre" name="nombre" value="" placeholder="Tu nombre" required="required" autofocus="autofocus" />  
+      			<label for="email">Correo Electrónico: <span class="required">*</span>		</label>  
+      			<input type="email" id="email" name="email" value="" placeholder="ejemplo@email.com" required="required" />  
+      			<label for="preferencia">Música de tu preferencia: </label>  
+      			<select id="preferencia" name="preferencia">  
+         			<option value="metal">Metal</option>
+         			<option value="rock">Rock</option>  
+         			<option value="indie">Indie</option>  
+         			<option value="clasica">Música Clásica</option>
+         			<option value="electrónica">Electrónica</option>
+         			<option value="default">Ni puta idea</option>
+      			</select> 
+      		 	<label for="Acuerdo">Dando click en "Registrar", usted acepta los términos y condiciones.</label> 
+      			<input type="submit" value="Registrar" id="submit" />
+   			</form> 
+   		</div> 
+	</body>
+</html>
