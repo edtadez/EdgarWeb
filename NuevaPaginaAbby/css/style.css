@@ -26,3 +26,9 @@ body {
 #registro textarea:focus {  
    background-color: #E5E6E7;
 }  
+#registro #submit {  
+   width: 450px;  
+   color: #BFD7C1;  
+   border: none;  
+   background-color: #6EA070;
+}  
