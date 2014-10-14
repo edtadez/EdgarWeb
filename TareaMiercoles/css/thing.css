@@ -1,6 +1,6 @@
 
 nav {
-	background: linear-gradient(yellow,#e0e0e0,#efefef,#000);
+	background: linear-gradient(#178106,#e0e0e0,#efefef,#000);
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
@@ -10,7 +10,7 @@ nav {
 }
 		header{
 		  background-image: url("../imagenes/back.jpeg");
-		  background-size: 100% 20%;
+		  background-size: 100% 40%;
 		  background-repeat: no-repeat;
 		  width: 100%;
 		  height: 100vh;
@@ -38,7 +38,7 @@ nav {
 			text-align: center;
 		}
 		p[name="titulo"]{
-			color: #E4D916;
+			color:#ED1515;
 			text-align: center;
 			font-size: 80px;
 		}
@@ -55,7 +55,7 @@ nav {
         background-color: #D66311; /* Modern Browsers */
 		}
     	footer{
-    	background: linear-gradient(orange,#e0e0e0,#efefef,#000);
+    	background: linear-gradient(#178106,#e0e0e0,#efefef,#000);
 		width: 80%;
 		margin-right: auto;
 		margin-left: auto;
@@ -64,7 +64,7 @@ nav {
 		margin-bottom: 20px;
 		}
 	body{
-		margin: 100px 40px 10px 70px;
+		margin: 100px 40px 10px 40px;
 		border-left : 5pt groove red;
 		border-right: 5px groove red;
 	}
