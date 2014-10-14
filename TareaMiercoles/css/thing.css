@@ -1,6 +1,6 @@
 
 nav {
-	background: linear-gradient(yellow,#e0e0e0,#efefef,#000);
+	background: linear-gradient(#178106,#e0e0e0,#efefef,#000);
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
@@ -55,7 +55,7 @@ nav {
         background-color: #D66311; /* Modern Browsers */
 		}
     	footer{
-    	background: linear-gradient(#13DC81,#e0e0e0,#efefef,#000);
+    	background: linear-gradient(#178106,#e0e0e0,#efefef,#000);
 		width: 80%;
 		margin-right: auto;
 		margin-left: auto;
