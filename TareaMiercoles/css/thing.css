@@ -55,7 +55,7 @@ nav {
         background-color: #D66311; /* Modern Browsers */
 		}
     	footer{
-    	background: linear-gradient(orange,#e0e0e0,#efefef,#000);
+    	background: linear-gradient(#13DC81,#e0e0e0,#efefef,#000);
 		width: 80%;
 		margin-right: auto;
 		margin-left: auto;
@@ -64,7 +64,7 @@ nav {
 		margin-bottom: 20px;
 		}
 	body{
-		margin: 100px 40px 10px 70px;
+		margin: 100px 40px 10px 40px;
 		border-left : 5pt groove red;
 		border-right: 5px groove red;
 	}
